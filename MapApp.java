@@ -44,11 +44,13 @@ public class MapApp {
 					System.out.println("NumberFormatException occurred");
 				}
 			}
+			reader.close();
 
 		} catch (IOException e) {
 			e.printStackTrace();
+		
 		}
-
+	
 		
 		System.out.println("\n =======Consolidated Orders=====");
 		System.out.println(orders);
